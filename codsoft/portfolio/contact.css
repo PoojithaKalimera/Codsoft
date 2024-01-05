@@ -1,0 +1,30 @@
+* {
+  background-color: rgb(149, 170, 172);
+}
+body.center-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.center-container {
+  text-align: left;
+}
+.social {
+  margin-left: 6px;
+  margin-top: 150px;
+  color: rgb(3, 3, 3);
+  margin-top: 30px;
+}
+
+.social a {
+  font-size: 30px;
+  color: rgb(7, 4, 4);
+}
+
+.social a:hover {
+  color: black;
+}
